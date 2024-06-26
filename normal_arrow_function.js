@@ -5,6 +5,11 @@
 // (3). Arrow Function doesnt have "arguments" object.
 // (4). Arrow Funtion has "implicit" return.
 
+//// Regular Functions and this:
+// In regular functions, this refers to the global object (or undefined in strict mode) when not called as a method of an object.
+
+//// Arrow Functions and this:
+// Arrow functions inherit this from their enclosing lexical context.
 
 //// Q. When We Should Not Use Arrow Function ?
 
