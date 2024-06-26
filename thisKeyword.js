@@ -11,8 +11,12 @@
 //// [vi]. "this" in a "Class"          :: "this" refers to the "Constructor(){ All The Variables Present Inside }";
 
 
-//// #**# "this" in ANY (Normal/Arrow Function), ALWAYS refers to "Window Object".
+//// "this" in ANY (Normal/Arrow Function), ALWAYS refers to "Window Object".
+//// Regular Functions and this:
+// In regular functions, this refers to the global object (or undefined in strict mode) when not called as a method of an object.
 
+//// Arrow Functions and this:
+// Arrow functions inherit this from their enclosing lexical context.
 
 //// [i]. "this" in an "Object Method":: "this" refers to the "Object".
 
